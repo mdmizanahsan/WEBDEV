@@ -1,10 +1,19 @@
 h1{
-    color: burlywood;
+    color: rgb(238, 137, 5);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration:  rgb(01, 22, 22) underline;
+    font-size: 70px;
+    font-family: arial;
 }
-p{
-    color:rgb(238, 106, 12)
+h2{
+    color:rgb(238, 106, 12);
+    text-align: center;
+    text-decoration:  rgb(233, 145, 3) overline;
+    font-size: 40px;
 }
 button{
     color:black;
-    background-color: rgb(187, 241, 92);
+    background-color: rgb(159, 241, 16);
+    
 }
