@@ -8,10 +8,15 @@ h1,h3{
 #login{
     color:rgb(15, 180, 209);
     background-color: rgb(207, 200, 101);
-    border-radius: 10px;
     padding-top: 2%;
     padding-bottom: 2%;
-   
+    margin-left: 80px;
+
+}
+#login:hover{
+    background-color: rgb(245, 125, 215);
+    transition:2s;
+    border-radius: 50%;
 }
 #signup{
     color:rgb(15, 180, 209);
@@ -19,7 +24,7 @@ h1,h3{
     border-radius: 10px;
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-left: 1150px;
+    margin-left: 1000px;
 }
 .upvote{
     background-color: rgb(93, 248, 93);
