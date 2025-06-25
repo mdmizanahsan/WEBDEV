@@ -88,3 +88,16 @@ h1{
     margin-left:600px;
     box-shadow: 2px 2px 20px rgb(4, 5, 0);
 }
+#picture{
+    width:600px;
+    height:200px;
+    background-color: rgb(121, 240, 200);
+    margin:10px auto;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2px;
+    background-image:url("download.jpeg");
+    background-size: auto;
+    color: aliceblue;
+    text-align: center;
+}
