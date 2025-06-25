@@ -4,10 +4,10 @@
     border: 2px solid black;
     /* dono ko same line me rakhne ke liye inline block use kiye*/
     display: inline-block;
-    margin: 10px;
+    margin-left: 200px;
     border-radius: 20px;
     box-shadow: 0px 2px 15px rgb(4, 5, 0);
-    transition: 2s;
+    transition: 1s;
 }
 .desc{
     padding:0px 4px 0px 4px;
