@@ -79,8 +79,12 @@ h1{
      padding-top: 5%;
      background-color: rgb(245, 190, 236);
 }
-body{
-border-color: rgb(228, 7, 44);
-border-radius: 30px;
-border-style: solid;
+
+#one{
+    text-align: center;
+    background-color: rgb(91, 4, 231);
+    height: 50px;
+    width: 200px;
+    margin-left:600px;
+    box-shadow: 2px 2px 20px rgb(4, 5, 0);
 }
