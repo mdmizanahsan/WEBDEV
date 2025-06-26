@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    box-shadow: 0px 2px 30px rgb(245, 3, 185);
 }
 #a{
     text-align: center;
@@ -18,6 +19,16 @@
     border-radius: 10px;
     font-size: 50px;
     border: 2px solid black;
+    animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes fontanimation{
+    from{font-size: 50px;}
+    to{font-size: 95px;}
 }
 #b{
     text-align: center;
@@ -27,6 +38,12 @@
     border-radius: 10px;
     font-size: 50px;
     border: 2px solid black;
+      animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 
 }
 #c{
@@ -37,6 +54,12 @@
     border-radius: 10px;
     font-size: 50px;
     border: 2px solid black;
+      animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 
 }
 #d{
@@ -47,7 +70,12 @@
     border-radius: 10px;
     font-size: 50px;
         border: 2px solid black;
-
+  animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 #e{
     text-align: center;
@@ -57,7 +85,12 @@
     border-radius: 10px;
     font-size: 50px;
     border: 2px solid black;
-
+  animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 #f{
     text-align: center;
@@ -67,16 +100,27 @@
     border-radius: 10px;
     font-size: 50px;
     border: 2px solid black;
-
+  animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 #g{
     text-align: center;
     height: 100px;
     width: 100px;
+    border-radius: 10px;
     background-color:#808080;
     font-size: 50px;
     border: 2px solid black;
-
+  animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 #h{
     text-align: center;
@@ -86,7 +130,12 @@
     border-radius: 10px;
     font-size: 50px;
     border: 2px solid black;
-
+  animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 #i{
     text-align: center;
@@ -96,6 +145,12 @@
     border-radius: 10px;
     font-size: 50px;
     border: 2px solid black;
+    animation-name: fontanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 
 
