@@ -23,6 +23,7 @@
         width: 300px;
         background-color: rgb(4, 185, 245);
         font-size: 60px;
+        border-radius: 20px;
     }
 }
 @keyframes fontanimation{
