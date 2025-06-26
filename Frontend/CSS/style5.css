@@ -1,0 +1,100 @@
+.box{
+    height: 400px;
+    width:400px;
+    background-color: rgb(230, 202, 227);
+    border: 2px solid rgb(6, 234, 250);    
+    margin: 10px auto;
+    border-radius: 10px;;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#a{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+}
+#b{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+
+}
+#c{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+
+}
+#d{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    border-radius: 10px;
+    font-size: 50px;
+        border: 2px solid black;
+
+}
+#e{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+
+}
+#f{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+
+}
+#g{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    font-size: 50px;
+    border: 2px solid black;
+
+}
+#h{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+
+}
+#i{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:#808080;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+
+}
