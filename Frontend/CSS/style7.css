@@ -11,6 +11,7 @@
     
 }
 
+@keyframes 
 @keyframes fontanimation{
     from{font-size: 20;}
     to{font-size: 50px;}
