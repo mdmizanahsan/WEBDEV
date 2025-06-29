@@ -61,6 +61,12 @@ button:hover{
     cursor: pointer;
     transition: 0.3s ease-out;
 }
+ .form-controler{
+    grid-column: 1 /span 2;
+ }
+ .form-controler textarea {
+    width: 100%;
+ } 
 
 
 
