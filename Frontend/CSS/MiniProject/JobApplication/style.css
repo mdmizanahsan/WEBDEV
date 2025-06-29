@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+}
+.box1{
+    width: 600px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow: 0 4px 30px black;
+    
+}
