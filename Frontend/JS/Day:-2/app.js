@@ -21,4 +21,17 @@ console.log(a**b);
     console.log(a2);
 
        console.log("************Example of Comparison Operators****************");
+   let age = 18;
+   console.log(age >= 18);  // true
+   console.log(age > 18);  //false
+   console.log(age < 23);  // true
 
+    // double operator
+    let n = 3;
+    let str = '3';
+    console.log(n == str);   // true
+
+    // thriple operator
+    let n1 = 10;
+    let str1 = '10';
+    console.log(n1 === str1);  //false
