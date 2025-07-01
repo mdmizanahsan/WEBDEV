@@ -31,16 +31,4 @@ for(let i=1; i<= 5;i++){
         console.log("you quit");
        }
 
-    // Question
-      let todo =[];
-      let request = prompt("please enter your request");
-        while(true){
-            if(request == "quit"){
-                console.log("you quit this game");
-            }
-            if(request == "list"){
-                for(task of todo){
-                    console.log(task);
-                }
-           } 
-        }
+    
