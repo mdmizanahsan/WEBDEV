@@ -18,11 +18,11 @@
      inp.value = "";
   });
    
-     
-     let delbtns = document.querySelectorAll(".delete");
-      for(delbtn of delbtns){
-            delbtn.addEventListener("click", function() {
-                let par = this.parentElement;
-                par.remove();
-            });
+   ul.addEventListener("click", function(event) {
+      if(event.target.nodeName == "BUTTON") {
+        let listItem = event.target.parentElement;
+        listItem.remove();
+        console.log("delete");
+
       }
+   });
