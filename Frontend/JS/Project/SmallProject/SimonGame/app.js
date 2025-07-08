@@ -32,28 +32,30 @@ document.addEventListener("keypress",function() {
     }
 
    function levelUp(){
-    userseq = [];
+    userSeq = [];
    level++;
    h2.innerText = `level ${level}`;
 
    let randomidx = Math.floor(Math.random() * 3);
    let randomcolor = btns[randomidx];
    let randomBtn = document.querySelector(`.${randomcolor}`);
-   gameseq.push(randomcolor);
-   console.log(gameseq);
+   gameSeq.push(randomcolor);
+   console.log(gameSeq);
    gameFlash(randomBtn);
    }
 
-   function checkAns() {
-    // console.log("curr level : ",level);
-       if(userSeq[index] === gameSeq[index]){
+   function checkAns(idx) {
+       if(userSeq[idx] === gameSeq[idx]){
         if(userSeq.length == gameSeq.length) {
-            levelUp();
+            setTimeout(levelUp, 1000);
         }
-
-    // console.log("same value");
     } else {
-       // h2.innerText= `Game over press any to start`;
+        h2.innerHTML= `Game over! your score was <b>${level}</b> <br> press any key to start`;
+        document.querySelector("body").style.backgroundColor = "red";
+        setTimeout(function() {
+          document.querySelector("body").style.backgroundcolor = "white";
+        },150);
+        reset();
     }
    }
  
@@ -75,5 +77,6 @@ document.addEventListener("keypress",function() {
       function reset() {
         started = false;
         gameSeq = [];
-
+        userSeq = [];
+        level = 0;
       }
