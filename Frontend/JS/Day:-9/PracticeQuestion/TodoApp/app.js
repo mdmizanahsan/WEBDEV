@@ -22,7 +22,5 @@
       if(event.target.nodeName == "BUTTON") {
         let listItem = event.target.parentElement;
         listItem.remove();
-        console.log("delete");
-
       }
    });
