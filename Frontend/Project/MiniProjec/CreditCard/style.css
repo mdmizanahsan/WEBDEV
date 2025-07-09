@@ -1,0 +1,49 @@
+ *{
+    margin:0;
+    padding: 0;
+
+ }
+ .logo2{
+    width:80px;
+    mix-blend-mode: multiply;
+    margin-right: 15px;
+    font-size: 20px;
+ }
+ header .chip{
+    width: 60px;
+ }
+ .chip{
+ }
+header,
+ .logo{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ body{
+    min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #e3f2fd;
+ }
+ .box-container{
+    position: relative;
+    background-image: url("black.jpg");
+    background-size: cover;
+    padding: 20px;
+    max-width: 100%;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0 30px 40px rgb(0,0,0,0.1);
+ }
+ h4{
+    color: white;
+ }
+ h5{
+    color:white;
+ }
+ h3{
+    color:white;
+ }
