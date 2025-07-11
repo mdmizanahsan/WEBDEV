@@ -4,7 +4,7 @@
 
  }
  .logo2{
-    width:80px;
+    width:100px;
     
     mix-blend-mode: multiply;
     margin-right: 15px;
@@ -12,10 +12,10 @@
 
  }
  header .chip{
-    width: 60px;
+    width: 80px;
  }
  .chip{
-    mix-blend-mode: color-burn;
+    mix-blend-mode: multiply;
     background-color: black;
  }
 header,
@@ -39,7 +39,7 @@ header,
     padding: 20px;
     max-width: 100%;
     border-radius: 30px;
-    width: 450px;
+    width: 500px;
     box-shadow: 0 30px 40px rgb(0,0,0,0.1);
  }
  h4{
