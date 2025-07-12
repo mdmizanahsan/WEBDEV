@@ -6,54 +6,70 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-     /*
+        
       System.out.println("Enter the first number : ");
-        int num1 = sc.nextInt();
+        int a = sc.nextInt();
+
+      System.out.print("Enter operator (+, -, *, /): ");
+        char operator = sc.next().charAt(0);
+
 
         System.out.println("Enter the second number");
-        int num2 = sc.nextInt();
-     */   
+        int b = sc.nextInt();
+        
+        int result = 0;
 
-            add();
+            switch (operator) {
+                case '+':
+                    result = add(a, b);
+                    break;
+                case '-' :
+                result = sub(a,b);
+                    break;
 
+                      case '*' :
+                result = mul(a,b);
+                    break;
+
+                      case '/' :
+
+                result = div(a,b);
+                    break;
+
+                default:
+                    System.out.println("invalid opertaor");
+
+            }
+
+            System.out.println("Result: " + result);
 
     }
 
-    public static void add(){
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter the first number : ");
-        int a = sc.nextInt();
-
-        System.out.println("Enter the second number : ");
-        int b = sc.nextInt();
+    public static int add(int a, int b){
 
         int result = a + b;
 
-        System.out.println("The sum is = "+result);
-
-        sub(a, b);
+      return result;
+        
     }
 
-    public static void sub(int a,int b) {
+    public static int sub(int a,int b) {
         int subtract = a - b;
 
-        System.out.println("The sub of two number is = "+subtract);
         
-        mul(a,b);
+        return subtract;
     }
 
-    public static void mul(int a, int b){
+    public static int mul(int a, int b){
         int multiply = a*b;
 
-        System.out.println("The multiplication of two number is = "+multiply);
 
-       div(a,b);
+       return multiply;
     }
 
-    public static void div(int a,int b){
+    public static int div(int a,int b){
         int divide = a / b ;
 
-        System.out.println("The Division of two number is = "+divide);
+        return divide;
     }
 }
