@@ -1,9 +1,10 @@
-package Backend.Java.CollectionFramework.Generics;
+package Backend.Java.CollectionFramework.ListTypeQuestion.ArrayList;
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class question2 {
+public class Question2 {
     
     public static void main(String[] args) {
 
@@ -67,3 +68,4 @@ public class question2 {
 
     }
 }
+
