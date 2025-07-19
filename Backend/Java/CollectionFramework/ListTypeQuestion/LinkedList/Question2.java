@@ -18,23 +18,34 @@ public class Question2 {
         System.out.println("4. Show all Tasks");
         System.out.println("5. Exit");
 
-        System.out.print("Enter your choice: ");
+        System.out.print("Enter your choice (1 to 5) :");
         int choice = sc.nextInt();
         sc.nextLine(); 
 
         switch(choice) {
             case 1:
                 System.out.println("Enter the task to add at the end:");
-                
+                String taskend= sc.nextLine();
+                todoList.add(taskend);
+                System.out.println("Task added successfully!");
                 break;
             case 2:
                 System.out.println("Enter the task to add at the beginning:");
+                String taskbeg = sc.nextLine();
+                todoList.addFirst(taskbeg);
+                System.out.println("Task added successfully!");
                 break;
             case 3:
                 System.out.println("Enter the task to remove:");
+                String taskRev = sc.nextLine();
+                todoList.remove(taskRev);
+                System.out.println("Task removed successfully!");
                 break;
                 case 4:
                 System.out.println("Show all the tasks:");
+                for (String task : todoList) {
+                    System.out.println("- " + task);
+                }
                 break;
             case 5:
                 System.out.println("Exiting the system.");
