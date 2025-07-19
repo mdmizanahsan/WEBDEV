@@ -1,4 +1,5 @@
-package Backend.Java.CollectionFramework.ListTypeQuestion;
+package Backend.Java.CollectionFramework.ListTypeQuestion.ArrayList;
+
 import java.util.ArrayList;
 public class Question1 {
     public static void main(String[] args) {
