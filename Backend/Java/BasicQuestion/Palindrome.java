@@ -1,19 +1,25 @@
 package Backend.Java.BasicQuestion;
+import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
-        int n = 121;
-        int original = n;
-        int rev = 0;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter The Number : ");
+        int n = sc.nextInt();
+
+        int Palindrome = n;
+        int reverse = 0;
 
         while (n > 0) {
-            int digit = n %10;
-            rev = rev *10 + digit;
-            n = n/10;
+            int digit = n % 10 ;
+            reverse = reverse * 10 + digit ; 
+            n = n / 10 ;
         }
-        if (original == rev) {
+
+        if (Palindrome == reverse) {
             System.out.println("Palindrome");
-        } else{
+        } else {
             System.out.println("Not Palindrome");
         }
     }
