@@ -2,7 +2,6 @@
  *       students and also display the data stored in the array.
 */
 
-package Backend.Java.Arrays;
 
 public class Question1 {
     public static void main(String[] args) {

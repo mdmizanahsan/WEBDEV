@@ -1,6 +1,5 @@
 // Write a java program to copy the content of 1 array into another arrays.
  
-package Backend.Java.Arrays;
 
 import java.util.Scanner;
 

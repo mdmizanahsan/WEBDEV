@@ -1,6 +1,5 @@
 //  Find the Largest element in an array.
  
-package Backend.Java.Arrays;
 
 import java.util.Scanner;
 

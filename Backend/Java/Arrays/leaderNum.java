@@ -3,7 +3,6 @@
 // An element is a Leader if it is greater than or equal to all the elements to its right side.
 
 
-package Backend.Java.Arrays;
 
 public class leaderNum {
  

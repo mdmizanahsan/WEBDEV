@@ -1,4 +1,3 @@
- package Backend.Java.BasicQuestion;
 
 class PrimeNumber {
     

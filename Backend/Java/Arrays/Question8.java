@@ -1,4 +1,3 @@
-package Backend.Java.Arrays;
 
 import java.util.Scanner;
 

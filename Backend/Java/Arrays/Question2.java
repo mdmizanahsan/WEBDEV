@@ -2,7 +2,6 @@
   *      take the number of player and Height of players ass user input.   
  */
 
-package Backend.Java.Arrays;
 
 import java.util.Scanner;
 

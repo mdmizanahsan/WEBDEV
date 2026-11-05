@@ -1,6 +1,5 @@
   // Reverse an array
 
-package Backend.Java.Arrays;
 
 import java.util.Scanner;
 

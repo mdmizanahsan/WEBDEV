@@ -1,4 +1,3 @@
-package Backend.Java.Arrays;
 
 public class ZeroShift {
     public static void main(String[] args) {

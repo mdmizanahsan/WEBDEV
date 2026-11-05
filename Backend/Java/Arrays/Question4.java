@@ -1,6 +1,5 @@
         //  Sum of all Elements in arrays
 
-package Backend.Java.Arrays;
 
 import java.util.Scanner;
 

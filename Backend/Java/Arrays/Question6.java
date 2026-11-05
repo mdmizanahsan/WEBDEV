@@ -3,7 +3,6 @@
  *    the console. Even the size of array has to be taken as an input from the keyboard. 
 */    
 
-package Backend.Java.Arrays;
 
 import java.util.Scanner;
 

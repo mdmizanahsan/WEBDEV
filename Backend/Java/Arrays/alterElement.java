@@ -1,7 +1,6 @@
 // Given an array arr[], the task is to print every alternate element of the array starting 
 // from the first element.
 
-package Backend.Java.Arrays;
 
 public class alterElement {
     public static void main(String[] args){
